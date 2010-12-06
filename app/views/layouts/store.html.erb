@@ -18,6 +18,10 @@
       <a href="http://127.0.0.1:4000/contact">Contact</a><br />
     </div>
     <div id="main">
+      <% if flash[:notice] -%>
+      <div id="notice"><%= flash[:notice] %></div>
+      <% end -%>
+
       <%= yield :layout %>
     </div>
   </div>
