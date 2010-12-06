@@ -12,6 +12,9 @@
   </div>
   <div id="columns">
     <div id="side">
+      <div id="cart">
+        <%= render(:partial => "cart", :object => @cart) %>
+      </div>
       <a href="http://127.0.0.1:4000/">Home</a><br />
       <a href="http://127.0.0.1:4000/faq">Questions</a><br />
       <a href="http://127.0.0.1:4000/news">News</a><br />
