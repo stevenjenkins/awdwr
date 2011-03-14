@@ -121,8 +121,8 @@ h1 {
 }
 
 #store .entry p {
- margin-top: 0.5em; 
- margin-bottom: 0.8em; 
+ margin-top: 0.5em;
+ margin-bottom: 0.8em;
 }
 
 #store .entry .price-line {
@@ -218,5 +218,30 @@ h1 {
   border-top: 1px dotted #595;
   border-bottom: 1px dotted #595;
   margin-bottom: 10px;
+}
+
+.depot-from fieldset {
+  background: #efe;
+}
+
+.depot-from legend {
+  width: 5em;
+  float: left;
+  text-align: right;
+  padding-top: 0.2em;
+  margin-right: 0.1em;
+  display: block;
+}
+
+.depot-form select, .depot-form textarea, .depot-form input {
+  margin-left: 0.5em;
+}
+
+.depot-form .submit {
+  margin-left: 4em;
+}
+
+.depot-form div {
+  margin: 0.5em 0;
 }
 
